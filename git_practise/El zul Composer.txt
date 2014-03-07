@@ -1,0 +1,14 @@
+	/*	@Listen("onSelect = #userListbox")
+	protected void showDetail(){
+		detailBox.setVisible(true);
+
+		Set<User> selection = ((Selectable<User>)userListbox.getModel()).getSelection();
+		if (selection!=null && !selection.isEmpty()){
+			User selected = selection.iterator().next();
+			fnameLabel.setValue(selected.getFirstName());
+			lnameLabel.setValue(selected.getLastName());
+				roleLabel.setValue(selected.getRoles().);
+			roleDescLabel.setValue(selected.getPrice().toString());
+			descriptionLabel.setValue(selected.getDescription());
+		}
+	}*/
